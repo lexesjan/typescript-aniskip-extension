@@ -16989,35 +16989,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-redux@npm:^8.1.3":
-  version: 8.1.3
-  resolution: "react-redux@npm:8.1.3"
+"react-redux@npm:^9.0.4":
+  version: 9.0.4
+  resolution: "react-redux@npm:9.0.4"
   dependencies:
-    "@babel/runtime": ^7.12.1
-    "@types/hoist-non-react-statics": ^3.3.1
     "@types/use-sync-external-store": ^0.0.3
-    hoist-non-react-statics: ^3.3.2
-    react-is: ^18.0.0
     use-sync-external-store: ^1.0.0
   peerDependencies:
-    "@types/react": ^16.8 || ^17.0 || ^18.0
-    "@types/react-dom": ^16.8 || ^17.0 || ^18.0
-    react: ^16.8 || ^17.0 || ^18.0
-    react-dom: ^16.8 || ^17.0 || ^18.0
-    react-native: ">=0.59"
-    redux: ^4 || ^5.0.0-beta.0
+    "@types/react": ^18.2.25
+    react: ^18.0
+    react-native: ">=0.69"
+    redux: ^5.0.0
   peerDependenciesMeta:
     "@types/react":
-      optional: true
-    "@types/react-dom":
-      optional: true
-    react-dom:
       optional: true
     react-native:
       optional: true
     redux:
       optional: true
-  checksum: 192ea6f6053148ec80a4148ec607bc259403b937e515f616a1104ca5ab357e97e98b8245ed505a17afee67a72341d4a559eaca9607968b4a422aa9b44ba7eb89
+  checksum: acc69b85e003f4367e0fa9716ca441a2536aa513fcb1b9404e33188fa68938acf455806eba2ff639553fbba24c06b6e96982998178bb9a2669227e7e4bcd441e
   languageName: node
   linkType: hard
 
@@ -19937,7 +19927,7 @@ __metadata:
     react-device-detect: ^2.2.3
     react-dom: ^18.2.0
     react-icons: ^4.12.0
-    react-redux: ^8.1.3
+    react-redux: ^9.0.4
     redux: ^4.2.1
     rimraf: ^5.0.5
     sass: ^1.69.5
